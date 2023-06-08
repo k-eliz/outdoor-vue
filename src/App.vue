@@ -1,14 +1,17 @@
 <template>
   <main-header></main-header>
   <intro-section></intro-section>
+  <about-us-section></about-us-section>
 </template>
 <script>
 import MainHeader from "./components/MainHeader.vue";
 import IntroSection from "./components/IntroSection.vue";
+import AboutUsSection from "./components/AboutUsSection.vue";
 export default {
   components: {
     MainHeader,
     IntroSection,
+    AboutUsSection,
   },
 };
 </script>
