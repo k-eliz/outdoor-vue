@@ -20,6 +20,6 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 50px;
+  padding: 15px 50px;
 }
 </style>
