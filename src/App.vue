@@ -33,5 +33,8 @@ a {
 html,
 body {
   height: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 </style>

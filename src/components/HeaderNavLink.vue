@@ -19,9 +19,5 @@ export default {
 
 <style scoped>
 .header-nav-link {
-  color: aqua;
-}
-.header-nav-link:hover {
-  color: #000;
 }
 </style>

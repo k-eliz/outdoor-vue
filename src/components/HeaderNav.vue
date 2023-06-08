@@ -6,24 +6,23 @@
       :text="linkItem.text"
     >
     </header-nav-link>
-    <li class="menu__list-item_btn">
-      <a class="menu__btn" href="#">Buy template</a>
-    </li>
-    <li class="menu__list-item_btn">
-      <a class="menu__btn" href="#"
-        ><i class="fa-solid fa-cart-shopping"></i>
-        Cart
-        <div class="menu__count">0</div>
-      </a>
-    </li>
+    <header-nav-button>Buy template</header-nav-button>
+    <header-nav-button>
+      <div class="button-cart">
+        <i class="fa-solid fa-cart-shopping"></i><span>Cart</span>
+        <span class="cart-count">0</span>
+      </div></header-nav-button
+    >
   </nav>
 </template>
 
 <script>
 import HeaderNavLink from "./HeaderNavLink.vue";
+import HeaderNavButton from "./HeaderNavButton.vue";
 export default {
   components: {
     HeaderNavLink,
+    HeaderNavButton,
   },
   data() {
     return {
@@ -45,5 +44,21 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
+  align-items: center;
+}
+
+.button-cart {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.cart-count {
+  background: #ffffff;
+  border-radius: 100%;
+  color: #575445;
+  font-size: 11px;
+  padding: 2px 6px;
 }
 </style>
