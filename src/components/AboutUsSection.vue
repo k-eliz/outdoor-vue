@@ -27,6 +27,8 @@ export default {
 
 <style scoped>
 .about-us-section {
+  background: url("../assets/background1.jpg") center no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: row;
   gap: 30px;

@@ -62,9 +62,13 @@ export default {
 
 <style scoped>
 .our-promise-section {
+  padding-top: 100px;
+  padding-bottom: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url("../assets/background.jpg") center no-repeat;
+  background-size: cover;
 }
 .our-promise-cards {
   display: grid;

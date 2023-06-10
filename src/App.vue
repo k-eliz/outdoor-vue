@@ -1,20 +1,23 @@
 <template>
-  <main-header></main-header>
-  <intro-section></intro-section>
-  <about-us-section></about-us-section>
-  <our-promise-section></our-promise-section>
+  <main-header />
+  <intro-section />
+  <about-us-section />
+  <our-promise-section />
+  <categories-section />
 </template>
 <script>
 import MainHeader from "./components/MainHeader.vue";
 import IntroSection from "./components/IntroSection.vue";
 import AboutUsSection from "./components/AboutUsSection.vue";
 import OurPromiseSection from "./components/OurPromiseSection.vue";
+import CategoriesSection from "./components/CategoriesSection.vue";
 export default {
   components: {
     MainHeader,
     IntroSection,
     AboutUsSection,
     OurPromiseSection,
+    CategoriesSection,
   },
 };
 </script>
