@@ -1,8 +1,8 @@
 <template>
   <div class="our-promise-card">
     <img :src="getImageUrl(photo)" alt="" />
-    <h3>{{ title }}</h3>
-    <p>{{ text }}</p>
+    <h3 class="title">{{ title }}</h3>
+    <p class="text">{{ text }}</p>
   </div>
 </template>
 
@@ -36,5 +36,16 @@ export default {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #575445;
+  font-weight: 400;
+}
+.text {
+  text-align: center;
+  color: #575445;
 }
 </style>
