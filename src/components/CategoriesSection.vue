@@ -57,7 +57,6 @@
     </a>
   </div>
 </template>
-
 <script>
 import SectionHeader from "./SectionHeader.vue";
 import CategoriesCard from "./CategoriesCard.vue";
