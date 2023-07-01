@@ -5,6 +5,7 @@
   <our-promise-section />
   <categories-section />
   <photo-section />
+  <shop-section />
 </template>
 <script>
 import MainHeader from "./components/MainHeader.vue";
@@ -13,6 +14,7 @@ import AboutUsSection from "./components/AboutUsSection.vue";
 import OurPromiseSection from "./components/OurPromiseSection.vue";
 import CategoriesSection from "./components/CategoriesSection.vue";
 import PhotoSection from "./components/PhotoSection.vue";
+import ShopSection from "./components/ShopSection.vue";
 export default {
   components: {
     MainHeader,
@@ -21,6 +23,7 @@ export default {
     OurPromiseSection,
     CategoriesSection,
     PhotoSection,
+    ShopSection,
   },
 };
 </script>

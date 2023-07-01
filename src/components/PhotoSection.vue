@@ -26,7 +26,10 @@ export default {
 <style scoped>
 .photo-section {
   position: relative;
+  padding-bottom: 0;
+  max-height: 598px;
 }
+
 .photo {
   width: 100%;
 }
