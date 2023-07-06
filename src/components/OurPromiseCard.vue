@@ -1,12 +1,13 @@
 <template>
   <div class="our-promise-card">
-    <img :src="getImageUrl(photo)" alt="" />
+    <img :src="useGetImageUrl(photo)" alt="" />
     <h3 class="title">{{ title }}</h3>
     <p class="text">{{ text }}</p>
   </div>
 </template>
 
 <script>
+import { useGetImageUrl } from "../composables/useGetImageUrl";
 export default {
   props: {
     photo: {
@@ -23,9 +24,7 @@ export default {
     },
   },
   methods: {
-    getImageUrl(name) {
-      return new URL(`../assets/${name}`, import.meta.url);
-    },
+    useGetImageUrl,
   },
 };
 </script>
