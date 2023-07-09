@@ -1,15 +1,17 @@
 <template>
   <header class="header">
-    <a class="logo" href="#"> <img src="../assets/logo.svg" alt="" /></a>
+    <logo />
     <header-nav></header-nav>
   </header>
 </template>
 
 <script>
 import HeaderNav from "./HeaderNav.vue";
+import Logo from "./Logo.vue";
 export default {
   components: {
     HeaderNav,
+    Logo,
   },
 };
 </script>
